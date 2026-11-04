@@ -29,6 +29,8 @@ Every rival cell is that project's own words or its own documented default, read
 
 Two cells deserve a note before the table is read as a verdict. OpenCode is the closest of the five to a rule you can review, because its permission config is a project file; the gap is the `--auto` flag, which approves anything not explicitly denied for the length of a run. Codex splits the question in two: a sandbox that limits what the agent can touch, and an approval policy that decides when it must ask. Both are configured in a TOML file at user level.
 
+One question the table leaves out is the one a shared session raises. Where two or more people run the same agent, memory, credentials and the record stop being one person's, and [the multiplayer agent harness page](https://agentharnessguide.com/multiplayer-agent-harness) takes that case apart. If the argument here is between a harness and a framework rather than between two harnesses, [the harness vs framework page](https://agentharnessguide.com/agent-harness-vs-agent-framework) draws the line first.
+
 ## The manifest, validated
 
 `kortix.yaml` in this repository is the project that keeps the table honest. One agent, one skill, one connector, no secrets. It was checked with the installed CLI on 2026-11-02:
