@@ -59,4 +59,4 @@ The same comparison is published on [Agent Harness Guide](https://agentharnessgu
 
 ## Run it yourself
 
-Clone the repository and run `kortix validate` at the root, and you get the same output. [Kortix](https://kortix.com) is the product this project runs on, and the code is at [Kortix on GitHub](https://github.com/kortix-ai/suna).
+Clone the repository and run `kortix validate` at the root, and you get the same output. [Kortix](https://kortix.com) is the product this project runs on, and the code is at [Kortix on GitHub](https://github.com/kortix-ai/CompanyOS).
